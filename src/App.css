@@ -1,42 +1,51 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1em;
   text-align: center;
+  
 }
 
-.logo {
-  height: 6em;
+.advice {
+  background-color: var(--dark-grayish-blue);
   padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  margin-top: 5em;
+  border-radius: 8px;
+  
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.advice-number {
+  text-transform: uppercase;
+  color: var(--neon-green);
+  font-size: .65rem;
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.advice-quote {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
-.card {
-  padding: 2em;
+.divider {
+  width: 100%;
+  margin: 2em 0 1em;
 }
 
-.read-the-docs {
-  color: #888;
+.btn {
+  border: none;
+  background-color: var(--neon-green);
+  border-radius: 100%;
+  padding: 1.25em;
+  text-align: center;
+  cursor: pointer;
+  margin-top: -10em;
+}
+
+.btn:hover {
+  box-shadow: 0 0 25px 1px var(--neon-green);
+}
+
+.dice-icon {
+  margin-top: .18em;
 }
