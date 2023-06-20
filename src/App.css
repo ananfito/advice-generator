@@ -41,8 +41,12 @@
   margin-top: -10em;
 }
 
-.btn:hover {
-  box-shadow: 0 0 25px 1px var(--neon-green);
+.btn:active {
+box-shadow: 0 0 25px 1px var(--neon-green);
+}
+
+@media (hover: hover) {
+  .btn:hover { box-shadow: 0 0 25px 1px var(--neon-green); }
 }
 
 .dice-icon {
@@ -62,16 +66,8 @@
     padding: 0;
   }
 
-  /* .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  } */
-
   .advice { margin: 0 ;}
 
   .advice-quote { font-size: 1.75rem; }
 
-  /* .btn { margin-top: -2.25em;} */
 }
