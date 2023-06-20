@@ -27,7 +27,7 @@ Users should be able to:
 
 #### Desktop
 
-![Large text centered on the screen with advice the "If you don't want something to be public, don't post it on the Internet." Below the text is a green button with a dice icon which will generate a new piece of advice.](./screenshot_advice_desktop.png)
+![Large text centered on the screen with advice the 'If you don't want something to be public, don't post it on the Internet.' Below the text is a green button with a dice icon which will generate a new piece of advice.](./screenshot_advice_desktop.png)
 
 #### Mobile
 
