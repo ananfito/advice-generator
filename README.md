@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/responsive-random-advice-generator-build-with-react-f_HYc8jQhF
 - Live Site URL: https://advice-generator-8be15d.netlify.app/
 
 ## My process
