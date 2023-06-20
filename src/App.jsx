@@ -30,12 +30,12 @@ function App() {
    
   return (
     <div className='container'>
-      <div className='advice'>
+      <main className='advice'>
         <h1 className='advice-number'>Advice #{adviceData.number}</h1>
         <q className='advice-quote' id='advice-quote'>{adviceData.advice}</q>
         <img className='divider' src={dividerUrl} alt="divider with a single horizontal line dvided in half by two vertical lines" />
       
-      </div>
+      </main>
       <button className='btn' onClick={handleClick}><img className='dice-icon' src={diceIconUrl} alt="dice icon" /></button>
     </div>
   )
